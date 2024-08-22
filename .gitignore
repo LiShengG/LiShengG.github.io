@@ -1,13 +1,25 @@
-# npm
-package-lock.json
+.DS_Store
 node_modules
+/dist
 
-# yarn
-yarn.lock
-yarn-error.log
+# local env files
+.env.local
+.env.*.local
 
-# pnpm
-pnpm-lock.yaml
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+
 
 # vscode
 .vscode
