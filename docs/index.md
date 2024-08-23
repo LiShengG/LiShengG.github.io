@@ -14,11 +14,12 @@ features: # 可选的
     imgUrl: /img/web.png # 可选
   - title: 个人简历
     details: 基本信息、学习经历、从业经历、研究方向等
-    link: /ui/
-    imgUrl: /img/ui.png
-  - title: 生活随笔
+    # link: /ui/
+    link: /pages/6d49d3/
+    imgUrl: /img/resume.png
+  - title: 随笔集
     details: 生活思考碎碎念等
-    link: /technology/
+    link: /Dailylog/
     imgUrl: /img/other.png
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
 # postList: detailed

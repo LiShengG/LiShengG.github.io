@@ -35,61 +35,49 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         items: [
           // 说明：以下所有link的值只是在相应md文件头部定义的永久链接（不是什么特殊编码）。另外，注意结尾是有斜杠的
           {
-            text: 'C++',
-            items: [
-              { text: 'JavaScript', link: '/pages/8143cc480faf9a11/' },
-            ],
+            text: 'C++', link: '/web/'
+            // items: [
+            //   { text: 'JavaScript', link: '/pages/8143cc480faf9a11/' },
+            // ],
           },
           {
-            text: 'leecode',
-            items: [
-              { text: 'JavaScript', link: '/pages/8143cc480faf9a11/' },
-            ],
+            text: 'leecode', link: '/web/'
+            // items: [
+            //   { text: 'JavaScript', link: '/pages/8143cc480faf9a11/' },
+            // ],
           },
           {
-            text: 'Golang',
-            items: [
-              { text: '《JavaScript教程》', link: '/note/javascript/' },
-              { text: '《JavaScript高级程序设计》', link: '/note/js/' },
-              { text: '《ES6 教程》', link: '/note/es6/' },
-              { text: '《Vue》', link: '/note/vue/' },
-              { text: '《React》', link: '/note/react/' },
-              {
-                text: '《TypeScript 从零实现 axios》',
-                link: '/note/typescript-axios/',
-              },
-              {
-                text: '《Git》',
-                link: '/note/git/',
-              },
-              {
-                text: 'TypeScript',
-                link: '/pages/51afd6/',
-              },
-              {
-                text: 'JS设计模式总结',
-                link: '/pages/4643cd/',
-              },
-            ],
+            text: 'golang', link: '/web/'
+            // items: [
+            //   { text: '《JavaScript教程》', link: '/note/javascript/' },
+            // ],
+          },
+          {
+            text: '分布式存储',
+            // items: [
+            //   { text: '《JavaScript教程》', link: '/note/javascript/' },
+            // ],
+          },
+          {
+            text: '其他',
+            // items: [
+            //   { text: '《JavaScript教程》', link: '/note/javascript/' },
+            // ],
           },
         ],
       },
       {
-        text: '页面',
-        link: '/ui/',
-        items: [
-          { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
-          { text: 'CSS', link: '/pages/0a83b083bdf257cb/' },
-        ],
+        text: '个人简历',
+        link: '/pages/6d49d3/',
       },
       {
-        text: '技术',
-        link: '/technology/',
+        text: '随笔集',
+        link: '/Dailylog/',
         items: [
-          { text: '技术文档', link: '/pages/9a7ee40fc232253e/' },
-          { text: 'GitHub技巧', link: '/pages/4c778760be26d8b3/' },
-          { text: 'Nodejs', link: '/pages/117708e0af7f0bd9/' },
-          { text: '博客搭建', link: '/pages/41f87d890d0a02af/' },
+          { text: '日常记录', link: '/pages/9a7ee40fc232253e/' },
+          // { text: 'GitHub技巧', link: '/pages/4c778760be26d8b3/' },
+          { text: '活动', link: '/pages/117708e0af7f0bd9/' },
+          // { text: '博客搭建', link: '/pages/41f87d890d0a02af/' },
         ],
       },
       // {
@@ -103,7 +91,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       //     { text: '友情链接', link: '/friends/' },
       //   ],
       // },
-      { text: '关于', link: '/about/' },
+      // { text: '关于', link: '/about/' },s
       {
         text: '收藏',
         link: '/pages/beb6c0bd8a66cea6/',
@@ -126,7 +114,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: '/img/logo.png', // 导航栏logo
     repo: 'xugaoyi/vuepress-theme-vdoing', // 导航栏右侧生成Github链接
-    searchMaxSuggestions: 10, // 搜索结果显示最大数
+    searchMaxSuggestions: 1, // 搜索结果显示最大数
     lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
     docsDir: 'docs', // 编辑的文件夹
     // docsBranch: 'master', // 编辑的文件所在分支，默认master。 注意：如果你的分支是main则修改为main
@@ -172,15 +160,15 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 文章默认的作者信息，(可在md文件中单独配置此信息) string | {name: string, link?: string}
     author: {
-      name: '李胜', // 必需
+      name: 'lisheng', // 必需
       link: 'https://github.com/LiShengG', // 可选的
     },
 
     // 博主信息 (显示在首页侧边栏)
     blogger: {
-      avatar: 'https://jsd.cdn.zzko.cn/gh/xugaoyi/image_store/blog/20200103123203.jpg',
-      name: 'ddd',
-      slogan: 'aaa',
+      avatar: '/img/sheng.png',
+      name: 'lisheng',
+      // slogan: 'aaa',
     },
 
     // 社交图标 (显示于博主信息栏和页脚栏。内置图标：https://doc.xugaoyi.com/pages/a20ce8/#social)
@@ -190,7 +178,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         {
           iconClass: 'icon-youjian',
           title: '发邮件',
-          link: 'mailto:894072666@qq.com',
+          link: '769203436@qq.com',
         },
         {
           iconClass: 'icon-github',
@@ -221,7 +209,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     },
 
     // 自定义hmtl(广告)模块
-    htmlModules
+    // htmlModules
   },
 
   // 注入到页面<head>中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
@@ -231,7 +219,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       'meta',
       {
         name: 'keywords',
-        content: '前端博客,个人技术博客,前端,前端开发,前端框架,web前端,前端面试题,技术文档,学习,面试,JavaScript,js,ES6,TypeScript,vue,python,css3,html5,Node,git,github,markdown',
+        content: 'c++,golang,AI,分布式,chatgpt,技术文档,学习,面试,python,git,github,markdown',
       },
     ],
     ['meta', { name: 'baidu-site-verification', content: '7F55weZDDc' }], // 百度统计的站长验证（你可以去掉）
