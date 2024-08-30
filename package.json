@@ -33,6 +33,7 @@
     "yamljs": "^0.3.0"
   },
   "dependencies": {
+    "element-ui": "^2.15.14",
     "vue-template-compiler": "^2.7.16"
   }
 }
