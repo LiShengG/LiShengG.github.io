@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>技术笔记 | LiSheng&#39;s blog</title>
+    <meta name="generator" content="VuePress 1.9.9">
+    <link rel="icon" href="/img/favicon.ico">
+    <meta name="description" content="Go、C++、分布式系统、AI等技术文章。">
+    <meta name="keywords" content="c++,golang,AI,分布式,chatgpt,技术文档,学习,面试,python,git,github,markdown">
+    <meta name="baidu-site-verification" content="7F55weZDDc">
+    <meta name="theme-color" content="#11a8cd">
+    
+    <link rel="preload" href="/assets/css/0.styles.b327e075.css" as="style"><link rel="preload" href="/assets/js/app.2de62b28.js" as="script"><link rel="preload" href="/assets/js/2.abfc66b8.js" as="script"><link rel="preload" href="/assets/js/14.1515daf6.js" as="script"><link rel="prefetch" href="/assets/js/10.ebf9e43d.js"><link rel="prefetch" href="/assets/js/100.d31564f7.js"><link rel="prefetch" href="/assets/js/101.83c9292c.js"><link rel="prefetch" href="/assets/js/102.8e7ef6c4.js"><link rel="prefetch" href="/assets/js/103.3b3bdd7e.js"><link rel="prefetch" href="/assets/js/104.9b8b49c7.js"><link rel="prefetch" href="/assets/js/105.bd2c1d9b.js"><link rel="prefetch" href="/assets/js/106.c9cd9c0d.js"><link rel="prefetch" href="/assets/js/107.48cc5ba6.js"><link rel="prefetch" href="/assets/js/108.48fddb71.js"><link rel="prefetch" href="/assets/js/109.a7187c3a.js"><link rel="prefetch" href="/assets/js/11.5bd4ae1e.js"><link rel="prefetch" href="/assets/js/110.2d26e5a3.js"><link rel="prefetch" href="/assets/js/111.253048cd.js"><link rel="prefetch" href="/assets/js/112.44abb78b.js"><link rel="prefetch" href="/assets/js/113.54a9b0f1.js"><link rel="prefetch" href="/assets/js/114.d382a70a.js"><link rel="prefetch" href="/assets/js/115.aaa2acd0.js"><link rel="prefetch" href="/assets/js/116.52068fa9.js"><link rel="prefetch" href="/assets/js/117.12ef4f31.js"><link rel="prefetch" href="/assets/js/118.cd38097b.js"><link rel="prefetch" href="/assets/js/119.cb0295e0.js"><link rel="prefetch" href="/assets/js/12.94eb167e.js"><link rel="prefetch" href="/assets/js/120.182f7cb1.js"><link rel="prefetch" href="/assets/js/121.4661c76a.js"><link rel="prefetch" href="/assets/js/122.b40bedc4.js"><link rel="prefetch" href="/assets/js/123.de756811.js"><link rel="prefetch" href="/assets/js/124.c8116322.js"><link rel="prefetch" href="/assets/js/125.da695808.js"><link rel="prefetch" href="/assets/js/126.d2b99400.js"><link rel="prefetch" href="/assets/js/127.d94fd139.js"><link rel="prefetch" href="/assets/js/128.ddbbf111.js"><link rel="prefetch" href="/assets/js/129.fae47f3d.js"><link rel="prefetch" href="/assets/js/13.5b89a0ea.js"><link rel="prefetch" href="/assets/js/130.6d3fdd13.js"><link rel="prefetch" href="/assets/js/15.35ea1d0c.js"><link rel="prefetch" href="/assets/js/16.0d0849d5.js"><link rel="prefetch" href="/assets/js/17.002e5213.js"><link rel="prefetch" href="/assets/js/18.6cb80e76.js"><link rel="prefetch" href="/assets/js/19.099387df.js"><link rel="prefetch" href="/assets/js/20.b30d88c8.js"><link rel="prefetch" href="/assets/js/21.280daccb.js"><link rel="prefetch" href="/assets/js/22.c3854ad4.js"><link rel="prefetch" href="/assets/js/23.98e8a661.js"><link rel="prefetch" href="/assets/js/24.7ff0404b.js"><link rel="prefetch" href="/assets/js/25.b5c341b3.js"><link rel="prefetch" href="/assets/js/26.84177b2a.js"><link rel="prefetch" href="/assets/js/27.20174b43.js"><link rel="prefetch" href="/assets/js/28.d4f2de20.js"><link rel="prefetch" href="/assets/js/29.8cf8ea2f.js"><link rel="prefetch" href="/assets/js/3.8ac049d3.js"><link rel="prefetch" href="/assets/js/30.e104ad4e.js"><link rel="prefetch" href="/assets/js/31.b4487ae4.js"><link rel="prefetch" href="/assets/js/32.d3ba07f9.js"><link rel="prefetch" href="/assets/js/33.2ea4635f.js"><link rel="prefetch" href="/assets/js/34.b86c2fe2.js"><link rel="prefetch" href="/assets/js/35.65adbc2f.js"><link rel="prefetch" href="/assets/js/36.4aa0238f.js"><link rel="prefetch" href="/assets/js/37.872f9f50.js"><link rel="prefetch" href="/assets/js/38.4ca11cb7.js"><link rel="prefetch" href="/assets/js/39.9de69685.js"><link rel="prefetch" href="/assets/js/4.16418c38.js"><link rel="prefetch" href="/assets/js/40.2fd1753a.js"><link rel="prefetch" href="/assets/js/41.79f34e66.js"><link rel="prefetch" href="/assets/js/42.23553a61.js"><link rel="prefetch" href="/assets/js/43.aefd2fd7.js"><link rel="prefetch" href="/assets/js/44.1baad7e1.js"><link rel="prefetch" href="/assets/js/45.a7392a30.js"><link rel="prefetch" href="/assets/js/46.33306261.js"><link rel="prefetch" href="/assets/js/47.3132ebb0.js"><link rel="prefetch" href="/assets/js/48.3da815cc.js"><link rel="prefetch" href="/assets/js/49.6bc06863.js"><link rel="prefetch" href="/assets/js/5.fdd326a0.js"><link rel="prefetch" href="/assets/js/50.ded44dfa.js"><link rel="prefetch" href="/assets/js/51.d838d678.js"><link rel="prefetch" href="/assets/js/52.ccd76648.js"><link rel="prefetch" href="/assets/js/53.7d9b72b8.js"><link rel="prefetch" href="/assets/js/54.3e668218.js"><link rel="prefetch" href="/assets/js/55.6a9fc854.js"><link rel="prefetch" href="/assets/js/56.345acf64.js"><link rel="prefetch" href="/assets/js/57.c580805b.js"><link rel="prefetch" href="/assets/js/58.2183bd37.js"><link rel="prefetch" href="/assets/js/59.75692f79.js"><link rel="prefetch" href="/assets/js/6.67dbbff2.js"><link rel="prefetch" href="/assets/js/60.c5901a9b.js"><link rel="prefetch" href="/assets/js/61.01b9eefb.js"><link rel="prefetch" href="/assets/js/62.20596503.js"><link rel="prefetch" href="/assets/js/63.6c680005.js"><link rel="prefetch" href="/assets/js/64.b57262ad.js"><link rel="prefetch" href="/assets/js/65.584f7348.js"><link rel="prefetch" href="/assets/js/66.5b053c43.js"><link rel="prefetch" href="/assets/js/67.1694a5df.js"><link rel="prefetch" href="/assets/js/68.86a21bac.js"><link rel="prefetch" href="/assets/js/69.9d3d561a.js"><link rel="prefetch" href="/assets/js/7.a696b0ea.js"><link rel="prefetch" href="/assets/js/70.811ec5ee.js"><link rel="prefetch" href="/assets/js/71.165020e6.js"><link rel="prefetch" href="/assets/js/72.e3232e3a.js"><link rel="prefetch" href="/assets/js/73.5b031df6.js"><link rel="prefetch" href="/assets/js/74.7e5b7fcd.js"><link rel="prefetch" href="/assets/js/75.1e5ec642.js"><link rel="prefetch" href="/assets/js/76.4dbbf381.js"><link rel="prefetch" href="/assets/js/77.40037a28.js"><link rel="prefetch" href="/assets/js/78.60ac573e.js"><link rel="prefetch" href="/assets/js/79.e5f640a5.js"><link rel="prefetch" href="/assets/js/8.029fcbe3.js"><link rel="prefetch" href="/assets/js/80.3d33967a.js"><link rel="prefetch" href="/assets/js/81.52e115bb.js"><link rel="prefetch" href="/assets/js/82.8b323db5.js"><link rel="prefetch" href="/assets/js/83.f11bb7c5.js"><link rel="prefetch" href="/assets/js/84.7bcd9d7d.js"><link rel="prefetch" href="/assets/js/85.1fc37ff0.js"><link rel="prefetch" href="/assets/js/86.37f69409.js"><link rel="prefetch" href="/assets/js/87.40dcc12f.js"><link rel="prefetch" href="/assets/js/88.44090177.js"><link rel="prefetch" href="/assets/js/89.d8747616.js"><link rel="prefetch" href="/assets/js/9.f64a4a05.js"><link rel="prefetch" href="/assets/js/90.1ce86299.js"><link rel="prefetch" href="/assets/js/91.fed5ca6f.js"><link rel="prefetch" href="/assets/js/92.8eba3f10.js"><link rel="prefetch" href="/assets/js/93.a764fa69.js"><link rel="prefetch" href="/assets/js/94.607f2d7b.js"><link rel="prefetch" href="/assets/js/95.5077ae07.js"><link rel="prefetch" href="/assets/js/96.9db94d59.js"><link rel="prefetch" href="/assets/js/97.dbf39e60.js"><link rel="prefetch" href="/assets/js/98.46a15ffe.js"><link rel="prefetch" href="/assets/js/99.1ebf9892.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.b327e075.css">
+  </head>
+  <body class="theme-mode-light">
+    <div id="app" data-server-rendered="true"><div class="theme-container sidebar-open"><header class="navbar blur"><div title="目录" class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/img/logo.png" alt="LiSheng's blog" class="logo"> <span class="site-name can-hide">LiSheng's blog</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">首页</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="笔记" class="dropdown-title"><a href="/web/" class="link-title">笔记</a> <span class="title" style="display:none;">笔记</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/web/" class="nav-link">C++</a></li><li class="dropdown-item"><!----> <a href="/web/" class="nav-link">leecode</a></li><li class="dropdown-item"><!----> <a href="/web/" class="nav-link">golang</a></li><li class="dropdown-item"><!----> <a href="/Note/404" class="nav-link">分布式存储</a></li><li class="dropdown-item"><!----> <a href="/Note/404" class="nav-link">其他</a></li></ul></div></div><div class="nav-item"><a href="/pages/6d49d3/" class="nav-link">个人简历</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="随笔集" class="dropdown-title"><a href="/Dailylog/" class="link-title">随笔集</a> <span class="title" style="display:none;">随笔集</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/9a7ee40fc232253e/" class="nav-link">日常记录</a></li><li class="dropdown-item"><!----> <a href="/pages/117708e0af7f0bd9/" class="nav-link">活动</a></li></ul></div></div><div class="nav-item"><a href="/pages/beb6c0bd8a66cea6/" class="nav-link">收藏</a></div> <a href="https://github.com/LiShengG/LiShengG.github.io" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar-hover-trigger"></div> <aside class="sidebar" style="display:none;"><div class="blogger"><img src="/img/sheng.png"> <div class="blogger-info"><h3>lisheng</h3> <span></span></div></div> <nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">首页</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="笔记" class="dropdown-title"><a href="/web/" class="link-title">笔记</a> <span class="title" style="display:none;">笔记</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/web/" class="nav-link">C++</a></li><li class="dropdown-item"><!----> <a href="/web/" class="nav-link">leecode</a></li><li class="dropdown-item"><!----> <a href="/web/" class="nav-link">golang</a></li><li class="dropdown-item"><!----> <a href="/Note/404" class="nav-link">分布式存储</a></li><li class="dropdown-item"><!----> <a href="/Note/404" class="nav-link">其他</a></li></ul></div></div><div class="nav-item"><a href="/pages/6d49d3/" class="nav-link">个人简历</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="随笔集" class="dropdown-title"><a href="/Dailylog/" class="link-title">随笔集</a> <span class="title" style="display:none;">随笔集</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/9a7ee40fc232253e/" class="nav-link">日常记录</a></li><li class="dropdown-item"><!----> <a href="/pages/117708e0af7f0bd9/" class="nav-link">活动</a></li></ul></div></div><div class="nav-item"><a href="/pages/beb6c0bd8a66cea6/" class="nav-link">收藏</a></div> <a href="https://github.com/LiShengG/LiShengG.github.io" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <ul class="sidebar-links"><li><a href="/web/" class="sidebar-link">技术笔记</a></li><li><a href="/ui/" class="sidebar-link">页面</a></li><li><a href="/Dailylog/" class="sidebar-link">随笔集</a></li><li><a href="/more/" class="sidebar-link">更多</a></li><li><a href="/Note/" aria-current="page" class="active sidebar-link">技术笔记</a></li></ul> </aside> <div><main class="page"><div class="theme-vdoing-wrapper "><div class="placeholder"></div> <div class="theme-vdoing-content theme-vdoing-content" data-v-2cf874fa><div class="column-wrapper" data-v-2cf874fa><img src="/img/other.png" data-v-2cf874fa> <dl class="column-info" data-v-2cf874fa><dt class="title" data-v-2cf874fa>技术笔记</dt> <dd class="description" data-v-2cf874fa>技术笔记等</dd></dl></div> <div class="catalogue-wrapper" data-v-2cf874fa><div class="catalogue-title" data-v-2cf874fa>目录</div> <div class="catalogue-content" data-v-2cf874fa><dl data-v-2cf874fa><dt id="golang" data-v-2cf874fa><a href="#golang" class="header-anchor" data-v-2cf874fa>#</a>
+            1. golang
+          </dt> <dd data-v-2cf874fa><div class="sub-cat-wrap" data-v-2cf874fa><div id="并发编程" class="sub-title" data-v-2cf874fa><a href="#并发编程" class="header-anchor" data-v-2cf874fa>#</a>
+                  1-1. 并发编程
+                </div> <a href="/pages/d38ef9/" data-v-2cf874fa>
+                  1-1-1. GMP并发模型
+                  <!----></a><a href="/pages/44fe57/" data-v-2cf874fa>
+                  1-1-2. 锁相关
+                  <!----></a><a href="/pages/354d51/" data-v-2cf874fa>
+                  1-1-3. groutine并发相关
+                  <!----></a><a href="/pages/6cdb15/" data-v-2cf874fa>
+                  1-1-4. go如何实现原子操作
+                  <!----></a></div><div class="sub-cat-wrap" data-v-2cf874fa><div id="内存管理" class="sub-title" data-v-2cf874fa><a href="#内存管理" class="header-anchor" data-v-2cf874fa>#</a>
+                  1-2. 内存管理
+                </div> <a href="/pages/b5b3ef/" data-v-2cf874fa>
+                  1-2-1. gc整体过程
+                  <!----></a><a href="/pages/bf4e76/" data-v-2cf874fa>
+                  1-2-2. GC触发条件
+                  <!----></a><a href="/pages/659991/" data-v-2cf874fa>
+                  1-2-3. GC相关
+                  <!----></a><a href="/pages/42ecb0/" data-v-2cf874fa>
+                  1-2-4. 内存相关
+                  <!----></a></div><a href="/pages/49a632/" data-v-2cf874fa>1-3. 数组和切片的区别
+                  <!----></a><a href="/pages/21b31e/" data-v-2cf874fa>1-4. new和make
+                  <!----></a><a href="/pages/5c46ab/" data-v-2cf874fa>1-5. go defer
+                  <!----></a><a href="/pages/2913ee/" data-v-2cf874fa>1-6. context
+                  <!----></a><a href="/pages/43a3cd/" data-v-2cf874fa>1-7. channel
+                  <!----></a><a href="/pages/c3c3e8/" data-v-2cf874fa>1-8. go map
+                  <!----></a><a href="/pages/b12c9e/" data-v-2cf874fa>1-9. interface
+                  <!----></a><a href="/pages/e1ce25/" data-v-2cf874fa>1-10. 对象系统
+                  <!----></a><a href="/pages/c2f444/" data-v-2cf874fa>1-11. rune 类型
+                  <!----></a><a href="/pages/9ebdeb/" data-v-2cf874fa>1-12. 字符串拼接的几种方式
+                  <!----></a></dd></dl><dl data-v-2cf874fa><dt id="cplus" data-v-2cf874fa><a href="#cplus" class="header-anchor" data-v-2cf874fa>#</a>
+            2. cplus
+          </dt> <dd data-v-2cf874fa><div class="sub-cat-wrap" data-v-2cf874fa><div id="内存相关" class="sub-title" data-v-2cf874fa><a href="#内存相关" class="header-anchor" data-v-2cf874fa>#</a>
+                  2-1. 内存相关
+                </div> <a href="/pages/2c54f4/" data-v-2cf874fa>
+                  2-1-1. new、delete、malloc、free
+                  <!----></a><a href="/pages/89fd5e/" data-v-2cf874fa>
+                  2-1-2. 智能指针
+                  <!----></a><a href="/pages/d2e4df/" data-v-2cf874fa>
+                  2-1-3. 内存池
+                  <!----></a></div><div class="sub-cat-wrap" data-v-2cf874fa><div id="面向对象" class="sub-title" data-v-2cf874fa><a href="#面向对象" class="header-anchor" data-v-2cf874fa>#</a>
+                  2-2. 面向对象
+                </div> <a href="/pages/026a8e/" data-v-2cf874fa>
+                  2-2-1. 相关问题
+                  <!----></a><a href="/pages/80ba2b/" data-v-2cf874fa>
+                  2-2-2. 构造、析构顺序
+                  <!----></a><a href="/pages/110a0f/" data-v-2cf874fa>
+                  2-2-3. 对象内存布局
+                  <!----></a><a href="/pages/a001c2/" data-v-2cf874fa>
+                  2-2-4. 静态、动态多态
+                  <!----></a><a href="/pages/cf06d5/" data-v-2cf874fa>
+                  2-2-5. 虚函数表
+                  <!----></a><a href="/pages/bacf20/" data-v-2cf874fa>
+                  2-2-6. 重载、重写、覆盖
+                  <!----></a><a href="/pages/81cced/" data-v-2cf874fa>
+                  2-2-7. 构造函数不能是虚函数
+                  <!----></a><a href="/pages/2fe4af/" data-v-2cf874fa>
+                  2-2-8. CRTP模式的原理和用途
+                  <!----></a><a href="/pages/eb3f29/" data-v-2cf874fa>
+                  2-2-9. 移动语义move
+                  <!----></a><a href="/pages/1b8aa3/" data-v-2cf874fa>
+                  2-2-10. 构造函数初始化列表
+                  <!----></a><a href="/pages/57c44f/" data-v-2cf874fa>
+                  2-2-11. 静态成员变量和函数
+                  <!----></a><a href="/pages/280866/" data-v-2cf874fa>
+                  2-2-12. 多重继承
+                  <!----></a><a href="/pages/eed5be/" data-v-2cf874fa>
+                  2-2-13. 菱形问题与虚继承
+                  <!----></a><a href="/pages/039cca/" data-v-2cf874fa>
+                  2-2-14. 对象池
+                  <!----></a></div><div class="sub-cat-wrap" data-v-2cf874fa><div id="STL相关" class="sub-title" data-v-2cf874fa><a href="#STL相关" class="header-anchor" data-v-2cf874fa>#</a>
+                  2-3. STL相关
+                </div> <a href="/pages/72dc45/" data-v-2cf874fa>
+                  2-3-1. map和unorder_map
+                  <!----></a><a href="/pages/0c65b8/" data-v-2cf874fa>
+                  2-3-2. vector、deque、list
+                  <!----></a></div><a href="/pages/401f78/" data-v-2cf874fa>2-4. 内置数据结构
+                  <!----></a><a href="/pages/cd69f2/" data-v-2cf874fa>2-5. 数据结构示例
+                  <!----></a><div class="sub-cat-wrap" data-v-2cf874fa><div id="关键字" class="sub-title" data-v-2cf874fa><a href="#关键字" class="header-anchor" data-v-2cf874fa>#</a>
+                  2-6. 关键字
+                </div> <a href="/pages/44d6aa/" data-v-2cf874fa>
+                  2-6-1. static
+                  <!----></a><a href="/pages/ffca96/" data-v-2cf874fa>
+                  2-6-2. const、volatile、mutable
+                  <!----></a><a href="/pages/8dea03/" data-v-2cf874fa>
+                  2-6-3. const_cast、dynamic_cast
+                  <!----></a><a href="/pages/75cc92/" data-v-2cf874fa>
+                  2-6-4. struct、class、union
+                  <!----></a><a href="/pages/6c82d0/" data-v-2cf874fa>
+                  2-6-5. new、delete
+                  <!----></a><a href="/pages/7b4b2c/" data-v-2cf874fa>
+                  2-6-6. operator
+                  <!----></a><a href="/pages/3dbcfe/" data-v-2cf874fa>
+                  2-6-7. c++20 range
+                  <!----></a></div></dd></dl><dl data-v-2cf874fa><dt id="leetcode" data-v-2cf874fa><a href="#leetcode" class="header-anchor" data-v-2cf874fa>#</a>
+            3. leetcode
+          </dt> <dd data-v-2cf874fa><a href="/pages/71a02d/" data-v-2cf874fa>3-1. 排序算法
+                  <!----></a><a href="/pages/b4332b/" data-v-2cf874fa>3-2. 滑动窗口
+                  <!----></a><a href="/pages/c83adc/" data-v-2cf874fa>3-3. 动态规划
+                  <!----></a><a href="/pages/5e951c/" data-v-2cf874fa>3-4. 贪心算法
+                  <!----></a><a href="/pages/092f57/" data-v-2cf874fa>3-5. 回溯
+                  <!----></a><a href="/pages/3fc219/" data-v-2cf874fa>3-6. 单调栈
+                  <!----></a><a href="/pages/48390b/" data-v-2cf874fa>3-7. 链表和树
+                  <!----></a><a href="/pages/e9c892/" data-v-2cf874fa>3-8. 前缀和-栈-队列-堆等数据结构
+                  <!----></a><a href="/pages/8731c2/" data-v-2cf874fa>3-9. 图论算法
+                  <!----></a></dd></dl><dl data-v-2cf874fa><dt id="存储技术" data-v-2cf874fa><a href="#存储技术" class="header-anchor" data-v-2cf874fa>#</a>
+            4. 存储技术
+          </dt> <dd data-v-2cf874fa><a href="/pages/f91d39/" data-v-2cf874fa>4-1. 文件系统中查找文件的过程
+                  <!----></a><a href="/pages/b788fb/" data-v-2cf874fa>4-2. 学习大纲
+                  <!----></a><a href="/pages/a65dcd/" data-v-2cf874fa>4-3. mmap &amp;&amp; write
+                  <!----></a><a href="/pages/35a49f/" data-v-2cf874fa>4-4. 系统命令write的过程
+                  <!----></a><a href="/pages/7b789a/" data-v-2cf874fa>4-5. 块
+                  <!----></a><a href="/pages/3cc3b8/" data-v-2cf874fa>4-6. VFS层
+                  <!----></a><div class="sub-cat-wrap" data-v-2cf874fa><div id="Ceph" class="sub-title" data-v-2cf874fa><a href="#Ceph" class="header-anchor" data-v-2cf874fa>#</a>
+                  4-7. Ceph
+                </div> <a href="/pages/2a5eb3/" data-v-2cf874fa>
+                  4-7-1. Ceph架构设计
+                  <!----></a><a href="/pages/1bfa63/" data-v-2cf874fa>
+                  4-7-2. Crash算法
+                  <!----></a><a href="/pages/741df0/" data-v-2cf874fa>
+                  4-7-3. osd上的数据管理
+                  <!----></a></div><div class="sub-cat-wrap" data-v-2cf874fa><div id="Daos" class="sub-title" data-v-2cf874fa><a href="#Daos" class="header-anchor" data-v-2cf874fa>#</a>
+                  4-8. Daos
+                </div> </div></dd></dl><dl data-v-2cf874fa><dt id="分布式系统" data-v-2cf874fa><a href="#分布式系统" class="header-anchor" data-v-2cf874fa>#</a>
+            5. 分布式系统
+          </dt> <dd data-v-2cf874fa><a href="/pages/5075af/" data-v-2cf874fa>5-1. 一致性协议raft
+                  <!----></a></dd></dl><dl data-v-2cf874fa><dt id="计算机网络" data-v-2cf874fa><a href="#计算机网络" class="header-anchor" data-v-2cf874fa>#</a>
+            6. 计算机网络
+          </dt> <dd data-v-2cf874fa><a href="/pages/da4af6/" data-v-2cf874fa>6-1. tcp通信
+                  <!----></a><a href="/pages/074170/" data-v-2cf874fa>6-2. tcp三次握手及其状态变化
+                  <!----></a><a href="/pages/f13056/" data-v-2cf874fa>6-3. tcp四次挥手及其状态变化
+                  <!----></a><a href="/pages/275a01/" data-v-2cf874fa>6-4. http
+                  <!----></a></dd></dl><dl data-v-2cf874fa><dt id="Linux操作系统" data-v-2cf874fa><a href="#Linux操作系统" class="header-anchor" data-v-2cf874fa>#</a>
+            7. Linux操作系统
+          </dt> <dd data-v-2cf874fa><a href="/pages/a0710f/" data-v-2cf874fa>7-1. io多路复用
+                  <!----></a></dd></dl><dl data-v-2cf874fa><dt id="Redis" data-v-2cf874fa><a href="#Redis" class="header-anchor" data-v-2cf874fa>#</a>
+            8. Redis
+          </dt> <dd data-v-2cf874fa><a href="/pages/d4ee76/" data-v-2cf874fa>8-1. 大纲
+                  <!----></a><a href="/pages/63e640/" data-v-2cf874fa>8-2. redis持久化策略
+                  <!----></a><a href="/pages/ecccf4/" data-v-2cf874fa>8-3. redis事务
+                  <!----></a><a href="/pages/f4b977/" data-v-2cf874fa>8-4. redis分布式锁
+                  <!----></a><a href="/pages/402e59/" data-v-2cf874fa>8-5. redis高可用
+                  <!----></a><a href="/pages/1dae9e/" data-v-2cf874fa>8-6. redis主从同步
+                  <!----></a><a href="/pages/109a3a/" data-v-2cf874fa>8-7. Redis是什么
+                  <!----></a><a href="/pages/9bf7fe/" data-v-2cf874fa>8-8. Redis基本数据结构
+                  <!----></a><a href="/pages/507916/" data-v-2cf874fa>8-9. Redis为什么这么快
+                  <!----></a><a href="/pages/d4c8b9/" data-v-2cf874fa>8-10. 缓存击穿、缓存穿透、缓存雪崩
+                  <!----></a><a href="/pages/ab441c/" data-v-2cf874fa>8-11. 热Key问题，如何解决热key问题
+                  <!----></a><a href="/pages/80e761/" data-v-2cf874fa>8-12. Redis 过期策略和内存淘汰策略
+                  <!----></a><a href="/pages/3e26f3/" data-v-2cf874fa>8-13. Redis 的持久化机制
+                  <!----></a><a href="/pages/91b715/" data-v-2cf874fa>8-14. Redis的高可用
+                  <!----></a><a href="/pages/1edb31/" data-v-2cf874fa>8-15. 使用过Redis分布式锁
+                  <!----></a><a href="/pages/9c5351/" data-v-2cf874fa>8-16. Redis的跳跃表
+                  <!----></a><a href="/pages/f8d5b2/" data-v-2cf874fa>8-17. MySQL与Redis 如何保证双写一致性
+                  <!----></a><a href="/pages/365adb/" data-v-2cf874fa>8-18. Redis的Hash 冲突怎么办
+                  <!----></a><a href="/pages/2a80a6/" data-v-2cf874fa>8-19. 布隆过滤器
+                  <!----></a><a href="/pages/172837/" data-v-2cf874fa>8-20. Redis 事务机制
+                  <!----></a></dd></dl><dl data-v-2cf874fa><dt id=" 其他" data-v-2cf874fa><a href="# 其他" class="header-anchor" data-v-2cf874fa>#</a>
+            9.  其他
+          </dt> <dd data-v-2cf874fa><a href="/pages/4e0c2b/" data-v-2cf874fa>9-1. Git使用手册
+                  <!----></a><a href="/pages/1005c2/" data-v-2cf874fa>9-2. Markdown使用教程
+                  <!----></a><a href="/pages/9bfbab/" data-v-2cf874fa>9-3. GitHub高级搜索技巧
+                  <!----></a><a href="/pages/e76a6d/" data-v-2cf874fa>9-4. 《Git》学习笔记
+                  <!----></a></dd></dl></div></div></div> <div class="content-wrapper"><!----> <!----> <!----> <div class="theme-vdoing-content content__default"></div></div> <!----> <div class="page-edit"><!----> <!----> <!----></div> <div class="page-nav-wapper"><div class="page-nav-centre-wrap"><a href="/more/" class="page-nav-centre page-nav-centre-prev"><div class="tooltip">更多</div></a> <!----></div> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/more/" class="prev">更多</a></span> <!----></p></div></div></div> <div class="article-list no-article-list"><div class="article-title"><a href="/archives/" class="iconfont icon-bi">最近更新</a></div> <div class="article-wrapper"><dl><dd>01</dd> <dt><a href="/pages/c6299d/"><div>
+            网站搭建
+            <!----></div></a> <span class="date">09-10</span></dt></dl><dl><dd>02</dd> <dt><a href="/pages/babb52/"><div>
+            2022成都马拉松
+            <!----></div></a> <span class="date">09-10</span></dt></dl><dl><dd>03</dd> <dt><a href="/pages/7ab695/"><div>
+            青海湖骑行
+            <!----></div></a> <span class="date">09-10</span></dt></dl> <dl><dd></dd> <dt><a href="/archives/" class="more">更多文章&gt;</a></dt></dl></div></div></main></div> <div class="footer"><div class="icons"><a href="769203436@qq.com" title="发邮件" target="_blank" class="iconfont icon-youjian"></a><a href="https://github.com/LiShengG" title="GitHub" target="_blank" class="iconfont icon-github"></a><a href="https://music.163.com/#/playlist?id=755597173" title="听音乐" target="_blank" class="iconfont icon-erji"></a></div> 
+  Theme by
+  <a href="https://github.com/xugaoyi/vuepress-theme-vdoing" target="_blank" title="本站主题">Vdoing</a> <!----></div> <div class="buttons"><div title="返回顶部" class="button blur go-to-top iconfont icon-fanhuidingbu" style="display:none;"></div> <div title="去评论" class="button blur go-to-comment iconfont icon-pinglun" style="display:none;"></div> <div title="主题模式" class="button blur theme-mode-but iconfont icon-zhuti"><ul class="select-box" style="display:none;"><li class="iconfont icon-zidong">
+          跟随系统
+        </li><li class="iconfont icon-rijianmoshi">
+          浅色模式
+        </li><li class="iconfont icon-yejianmoshi">
+          深色模式
+        </li><li class="iconfont icon-yuedu">
+          阅读模式
+        </li></ul></div></div> <!----> <!----> <!----></div><div class="global-ui"><div></div></div></div>
+    <script src="/assets/js/app.2de62b28.js" defer></script><script src="/assets/js/2.abfc66b8.js" defer></script><script src="/assets/js/14.1515daf6.js" defer></script>
+  </body>
+</html>
