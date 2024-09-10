@@ -68,7 +68,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       },
       {
         text: '个人简历',
-        link: '/pages/6d49d3/',
+        link: '/pages/a50cda/',
       },
       {
         text: '随笔集',

@@ -15,7 +15,7 @@ features: # 可选的
   - title: 个人简历
     details: 基本信息、学习经历、从业经历、研究方向等
     # link: /ui/
-    link: /pages/6d49d3/
+    link: /pages/a50cda/
     imgUrl: /img/resume.png
   - title: 随笔集
     details: 生活思考碎碎念等
