@@ -18,7 +18,7 @@ features: # 可选的
     link: /pages/a50cda/
     imgUrl: /img/resume.png
   - title: 随笔集
-    details: 生活思考碎碎念等
+    details: 生活记录
     link: /Dailylog/
     imgUrl: /img/other.png
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
