@@ -32,39 +32,6 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       {
         text: '笔记',
         link: '/web/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
-        items: [
-          // 说明：以下所有link的值只是在相应md文件头部定义的永久链接（不是什么特殊编码）。另外，注意结尾是有斜杠的
-          {
-            text: 'C++', link: '/web/'
-            // items: [
-            //   { text: 'JavaScript', link: '/pages/8143cc480faf9a11/' },
-            // ],
-          },
-          {
-            text: 'leecode', link: '/web/'
-            // items: [
-            //   { text: 'JavaScript', link: '/pages/8143cc480faf9a11/' },
-            // ],
-          },
-          {
-            text: 'golang', link: '/web/'
-            // items: [
-            //   { text: '《JavaScript教程》', link: '/note/javascript/' },
-            // ],
-          },
-          {
-            text: '分布式存储',
-            // items: [
-            //   { text: '《JavaScript教程》', link: '/note/javascript/' },
-            // ],
-          },
-          {
-            text: '其他',
-            // items: [
-            //   { text: '《JavaScript教程》', link: '/note/javascript/' },
-            // ],
-          },
-        ],
       },
       {
         text: '个人简历',
@@ -73,12 +40,12 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       {
         text: '随笔集',
         link: '/Dailylog/',
-        items: [
-          { text: '日常记录', link: '/pages/9a7ee40fc232253e/' },
-          // { text: 'GitHub技巧', link: '/pages/4c778760be26d8b3/' },
-          { text: '活动', link: '/pages/117708e0af7f0bd9/' },
-          // { text: '博客搭建', link: '/pages/41f87d890d0a02af/' },
-        ],
+        // items: [
+        //   { text: '日常记录', link: '/pages/9a7ee40fc232253e/' },
+        //   // { text: 'GitHub技巧', link: '/pages/4c778760be26d8b3/' },
+        //   { text: '活动', link: '/pages/117708e0af7f0bd9/' },
+        //   // { text: '博客搭建', link: '/pages/41f87d890d0a02af/' },
+        // ],
       },
       // {
       //   text: '更多',
@@ -92,15 +59,15 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       //   ],
       // },
       // { text: '关于', link: '/about/' },s
-      {
-        text: '收藏',
-        link: '/pages/beb6c0bd8a66cea6/',
-        // items: [
-        //   { text: '网站', link: '/pages/beb6c0bd8a66cea6/' },
-        //   { text: '资源', link: '/pages/eee83a9211a70f9d/' },
-        //   { text: 'Vue资源', link: '/pages/12df8ace52d493f6/' },
-        // ],
-      },
+      // {
+      //   text: '收藏',
+      //   link: '/pages/beb6c0bd8a66cea6/',
+      //   // items: [
+      //   //   { text: '网站', link: '/pages/beb6c0bd8a66cea6/' },
+      //   //   { text: '资源', link: '/pages/eee83a9211a70f9d/' },
+      //   //   { text: 'Vue资源', link: '/pages/12df8ace52d493f6/' },
+      //   // ],
+      // },
       // {
       //   text: '索引',
       //   link: '/archives/',
@@ -222,7 +189,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         content: 'c++,golang,AI,分布式,chatgpt,技术文档,学习,面试,python,git,github,markdown',
       },
     ],
-    ['meta', { name: 'baidu-site-verification', content: '7F55weZDDc' }], // 百度统计的站长验证（你可以去掉）
+    // ['meta', { name: 'baidu-site-verification', content: '7F55weZDDc' }], // 百度统计的站长验证（你可以去掉）
     ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
     // [
     //   'script',
